@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <button class="tablink" onclick="openPage('Contact', this, 'pink')">Contact</button>
+    <button class="tablink" onclick="openPage('Works', this, 'pink')">Works</button>
+    <button class="tablink" onclick="openPage('Resume', this, 'pink')">Resume</button>
+    <button class="tablink" onclick="openPage('About', this, 'pink')">About</button>
+    <button class="tablinkz" onclick="openPage('Home')" style="float: left;" id="defaultOpen"><img src="giphy.gif" alt="hello" height="30px" width="70px"></button>
+</div>
+
+<div id="Home" class="tabcontent">
+    <border style="float: left; width: 70%; height: 100%;">
+    <p><img src="no bg.png"></p>
+    </border>
+    <border style="float: right; position: absolute; left: 430px; top: 150px;">
+    <div class="glow">
+        <h1 style="font-size: 80px;">Ionie Marie G. Miasco</h1>
+        <p style="font-size: 50px;"></p>
+    </div>
+    </border>
+</div>
+
+<div id="About" class="tabcontent">
+    <div class="row">
+  <div class="side">
+    <div class="fakeimg" style="height:230px; width: 260px;">
+        <img src="no bg.png" height="210px" width="220px">
+    </div>
+    <h2>About Me</h2>
+        <p>Birthday: June 10, 2008</p>
+        <p>Age: 17 years old</p>
+        <p>Phone: 0981 381 6462</p>
+        <p>Current City: Bacoor City, Cavite</p>
+        <p>Email: ioniemariegmiasco@gmail.com</p>
+  </div>
+
+  <div class="main">
+    <div class="fakeimg" style="height:140px;">
+        <p>I am hard working, goal-driven, and teachable. I graduated in SHS in San Nicholas where I developed my skills in HTML, CSS, JavaScript, and Java. I developed many projects in our school such as: registration form with the use of HTML, CSS, and Java, Calculator using Java, Grading System using HTML, CSS, and Java, etc. My dream is to start an innovation as a data analyst. </p>
+    </div>
+
+    <br>
+
+    <div class="fakeimg" style="height:330px;">
+        <border style="float: left; width: 45%;">
+        <p>HTML</p>
+            <div class="container">
+                <div class="skills html">90%</div>
+            </div>
+
+        <p>CSS</p>
+            <div class="container">
+                <div class="skills css">80%</div>
+            </div>
+
+        <p>JavaScript</p>
+            <div class="container">
+                <div class="skills js">50%</div>
+            </div>
+        </border>
+
+        <border style="float: right; width: 45%;">
+        <p>Problem Solving</p>
+            <div class="container">
+                <div class="skills ps">60%</div>
+            </div>
+
+        <p>Design</p>
+            <div class="container">
+                <div class="skills ds">80%</div>
+            </div>
+
+        <p>Video Editing</p>
+            <div class="container">
+                <div class="skills ve">85%</div>
+            </div>
+        </border>
+    </div>
+  </div>
+    </div>
+</div>
+
+<div id="Resume" class="tabcontent">
+  <border style="float: left; width: 43%; border-style: double; position: absolute; left: 5%; top: 20%; height: 55%; padding: 15px;">
+    <h1><b>EDUCATION</b></h1>
+    <P><b> MES-Golden Acres Elementary School </b><br> Mansanitas St., Las Piñas, Philippines <br> 2014 - 2020 </P>
+    <p><b>City of Bacoor national High School  in San Nicolas </b><br> Garnet St., San Nicolas 3, Bacoor City, Cavite <br> 2020 - 2024</p>
+    <p><b> SHS in San Nicolas 3 Bacoor City, Cavite </b><br> Garnet St., San Nicolas 3, Bacoor City, Cavite <br> 2024 - current</p>
+  </border>
+  <border style="float: right; width: 43%; border-style: double; position: absolute; right: 5%; top: 20%; height: 55%; padding: 15px;">
+    <h1><b>ACHIEVEMENTS</b></h1>
+    <p><B>ELEMENTARY</B> <br> With Honors - Grade 1, 5, 6 <br> 2nd place at Photojournalism in District Competition</p>
+    <p><b>JUNIOR HIGH SCHOOL</b> <br> Consistent Honor Student </p>
+    <p><b>SENIOR HIGH SCOOL</b> <br> With High Honor - Grade 11 <br> With High Honor - Grade 12 (1st SEM)</p>
+  </border>
+</div>
+
+<div id="Works" class="tabcontent">
+  <h1 style="text-align: center;"><b>MY WORKS</b></h1>
+  <p style="text-align: center;">
+    <img src="1.jpg" alt="Image 1" style="width: 300px; height: 180px;" class="modal-image" onclick="openModal(this)">
+        <img src="2.jpg" alt="Image 2" style="width: 300px; height: 180px;" class="modal-image" onclick="openModal(this)">
+        <img src="3.jpg" alt="Image 3" style="width: 300px; height: 180px;" class="modal-image" onclick="openModal(this)">
+  </p>
+  <p style="text-align: center;">
+    <img src="4.jpg" alt="Image 4" style="width: 300px; height: 180px;" class="modal-image" onclick="openModal(this)">
+        <img src="5.png" alt="Image 5" style="width: 300px; height: 180px;" class="modal-image" onclick="openModal(this)">
+        <img src="6.png" alt="Image 6" style="width: 300px; height: 180px;" class="modal-image" onclick="openModal(this)">
+  </p>
+  <p style="text-align: center;">
+    <img src="7.jpg" alt="Image 7" style="width: 300px; height: 180px;" class="modal-image" onclick="openModal(this)">
+        <img src="8.jpg" alt="Image 8" style="width: 300px; height: 180px;" class="modal-image" onclick="openModal(this)">
+        <img src="9.jpg" alt="Image 9" style="width: 300px; height: 180px;" class="modal-image" onclick="openModal(this)">
+  </p>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <div class="contact-container">
+        <h1>Contact Me</h1>
+        <div class="logo-container">
+            <a href="https://www.facebook.com/hades0610">
+                <img src="facebook-icon-jpg-removebg-preview.png" alt="Facebook Logo" class="logo">
+            </a>
+            <a href="mailto:ioniemariegmiasco@gmail.com">
+                <img src="gm-removebg-preview.png" alt="Gmail Logo" class="logo">
+            </a>
+            <p class="phone-number">Cell Phone: 0981 381 6462</p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
